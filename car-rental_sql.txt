@@ -1,0 +1,11 @@
+CREATE DATABASE carrental;
+USE carrental;
+
+CREATE TABLE cars (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    make VARCHAR(100),
+    model VARCHAR(100),
+    year INT,
+    rate_per_day DECIMAL(8,2),
+    available BOOLEAN
+);
